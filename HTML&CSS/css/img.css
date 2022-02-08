@@ -1,0 +1,39 @@
+/* Image
+
+  Raster
+    for photos
+    Formats JPG, PNG, GIF, ETC
+    More pixels = larger file size
+    Look blurry if scaled up
+    
+    Raster image formats
+          Colors  Transparency  Animation
+    JPEG  16M
+    GIF   256     O             O
+    PNG   16M     O             O
+    WebP  16M     O             O
+
+  VECTOR
+    for simple icon and logos
+    Created in software (Illustrator)
+    Format: SVG
+    Scalavle Vector Graphics
+    Look sharp at any size
+
+
+*/
+
+.meal {
+  width: 100vw;
+}
+
+body {
+  background: url(../css/images/mosh_images/bg-sanfrancisco.jpg);
+  background-repeat: no-repeat;
+  /* background-position: -100px 100px; */
+  /* background-size: 100% 100%; */
+  background-size: cover;
+  background-attachment: fixed;
+  height: 300vh;
+  /* height of block level elements are zero by default */
+}
