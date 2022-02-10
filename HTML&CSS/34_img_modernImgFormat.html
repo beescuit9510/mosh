@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/img.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <picture>
+      <source type="image/webp" srcset="css/images/mosh_images/meal.webp" />
+      <source type="image/jpeg" srcset="css/images/mosh_images/meal.jpeg" />
+    </picture>
+    <img class="meal" alt="A bowl of salmon and curry" />
+    <img
+      src="css/images/mosh_images/meal.jpg"
+      class="meal"
+      alt="A bowl of salmon and curry"
+      srcset="
+        css/images/mosh_images/meal.jpg     400w,
+        css/images/mosh_images/meal@2x.jpg  800w,
+        css/images/mosh_images/meal@3x.jpg 1200w
+      "
+      sizes="(max-width:500px) 100vw, (max-width:700px) 50vw, 33vw"
+    />
+  </body>
+</html>
